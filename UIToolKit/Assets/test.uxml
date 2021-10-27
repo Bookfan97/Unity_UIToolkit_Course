@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="test.uss" />
+    <ui:VisualElement name="Progress" class="Header">
+        <ui:Label text="Label" display-tooltip-when-elided="true" class="Header" />
+        <ui:ProgressBar title="my-progress" />
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="filler text" />
+        <ui:RadioButton label="Radio Button" />
+    </ui:VisualElement>
+    <ui:Toggle label="Toggle" class="Header" />
+</ui:UXML>
